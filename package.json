@@ -27,6 +27,7 @@
   },
   "scripts": {
     "build": "tsc --project ./tsconfig.build.json",
+    "prepack": "npm run build",
     "changeset": "changeset",
     "create": "node ./scripts/create-rule",
     "lint:fix": "eslint --fix",
